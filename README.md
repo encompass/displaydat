@@ -18,7 +18,7 @@ Have fun.
 * Display calender
 
 # Frequently asked questions:
-## Why don't you just use \<insert too here\>?
+## Why don't you just use \<insert tool here\>?
 Because I want to learn how to do it myself.
 ## How can I help?
 Clone, improve and we will take a look.  Happy to have more people contribute.
