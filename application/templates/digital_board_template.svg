@@ -26,13 +26,13 @@
      showgrid="false"
      units="px"
      width="1680px"
-     inkscape:zoom="0.48108515"
-     inkscape:cx="701.53901"
-     inkscape:cy="655.80906"
+     inkscape:zoom="1.3607143"
+     inkscape:cx="641.20735"
+     inkscape:cy="1289.3963"
      inkscape:window-width="2560"
      inkscape:window-height="1371"
-     inkscape:window-x="1050"
-     inkscape:window-y="156"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2" />
   <defs
@@ -40,8 +40,8 @@
     <rect
        x="37.936036"
        y="939.85157"
-       width="538.46932"
-       height="687.44096"
+       width="530.89117"
+       height="523.71753"
        id="rect98710" />
     <rect
        x="18.28485"
@@ -309,31 +309,7 @@
        style="font-size:32px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect98710);fill:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"><tspan
          x="37.935547"
          y="968.16406"
-         id="tspan8658">New research shows that people </tspan><tspan
-         x="37.935547"
-         y="1008.1641"
-         id="tspan8660">with blue eyes have a single, </tspan><tspan
-         x="37.935547"
-         y="1048.1641"
-         id="tspan8662">common ancestor. A team at the </tspan><tspan
-         x="37.935547"
-         y="1088.1641"
-         id="tspan8664">University of Copenhagen have </tspan><tspan
-         x="37.935547"
-         y="1128.1641"
-         id="tspan8666">tracked down a genetic mutation </tspan><tspan
-         x="37.935547"
-         y="1168.1641"
-         id="tspan8668">which took place 6-10,000 years </tspan><tspan
-         x="37.935547"
-         y="1208.1641"
-         id="tspan8670">ago and is the cause of the eye </tspan><tspan
-         x="37.935547"
-         y="1248.1641"
-         id="tspan8672">colour of all blue-eyed humans </tspan><tspan
-         x="37.935547"
-         y="1288.1641"
-         id="tspan8674">alive on the planet today.</tspan></text>
+         id="tspan24712">{{c.inspiration}}</tspan></text>
     <rect
        style="vector-effect:non-scaling-stroke;fill:#555753;stroke:none;stroke-width:0.0634999;stroke-linejoin:round;-inkscape-stroke:hairline"
        id="rect115742"
@@ -560,7 +536,7 @@
          id="tspan138273"
          style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
          x="78.742592"
-         y="32.751541">{{time}}</tspan></text>
+         y="32.751541">{{c.time}}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20.5264px;line-height:1.25;font-family:sans-serif;text-align:start;word-spacing:0px;text-anchor:start;fill:#ffffff;stroke-width:0.264582"

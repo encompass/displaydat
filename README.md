@@ -3,18 +3,43 @@ This is a, not functioning yet, simple display board we are making to see if we 
 
 # Installation instructions
 Get the computer you want to install it on, and dust it off.  It should be running in such a way to display something on the screen.  I suppose you could set this up with a tablet as well with a computer hosting the site.
+I used advise from:
+* https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
 
-    sudo apt install python3
-    sudo apt install flask
-    cd displaydat/application
-    flask --app dashboard run --host=0.0.0.0
+Make sure you have python installed.
+Clone the application to where you want to run it.
+
+    git clone git@github.com:encompass/displaydat.git
+
+Go into the directory
+
+    cd displaydat
+
+Setup your virtual environment
+
+    python -m venv env
+
+Connect your your virtual environment
+
+    source env/bin/activate
+
+Install the required packages
+
+    pip install -r requirements.txt
+
+Copy the .env_template to your own. You may need to edit some of .env to get all the features working.
+
+    cp .env_template .env
+
+Run the environment
+    python dashboard.py
 
 Have fun.  
 
 # Initial Plans
 * Display the weather
 * Display pictures from a folder or something
-* Display quotes from a website
+* Display quotes from a public api
 * Display calender
 
 # Frequently asked questions:
