@@ -21,3 +21,9 @@ def inspiration():
     message = "Sadly, this one isn't ready yet."
     return(message)
     
+def trello_cards():
+    """
+    https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-boardid-boardstars-get
+    """
+    message = "Sadly, this one isn't ready yet."
+    return(message)

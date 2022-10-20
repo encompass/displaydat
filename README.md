@@ -37,10 +37,12 @@ Run the environment
 Have fun.  
 
 # Initial Plans
+* Create limiter on the API calls so that I can use free accounts without billings.
 * Display the weather
 * Display pictures from a folder or something
 * Display quotes from a public api
 * Display calender
+* Display Trello Cards
 
 # Frequently asked questions:
 ## Why don't you just use \<insert tool here\>?
