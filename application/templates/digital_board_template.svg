@@ -26,22 +26,34 @@
      showgrid="false"
      units="px"
      width="1680px"
-     inkscape:zoom="1.3607143"
-     inkscape:cx="641.20735"
-     inkscape:cy="1289.3963"
+     inkscape:zoom="0.6803571"
+     inkscape:cx="321.15488"
+     inkscape:cy="800.31501"
      inkscape:window-width="2560"
      inkscape:window-height="1371"
-     inkscape:window-x="0"
+     inkscape:window-x="1050"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2" />
   <defs
      id="defs2">
     <rect
+       x="634.2943"
+       y="948.73426"
+       width="593.67872"
+       height="673.49246"
+       id="rect10472" />
+    <rect
+       x="-64.610888"
+       y="1126.7938"
+       width="362.35695"
+       height="406.20942"
+       id="rect6860" />
+    <rect
        x="37.936036"
        y="939.85157"
-       width="530.89117"
-       height="523.71753"
+       width="284.88946"
+       height="532.84739"
        id="rect98710" />
     <rect
        x="18.28485"
@@ -124,7 +136,7 @@
     <rect
        style="vector-effect:non-scaling-stroke;fill:#555753;stroke:none;stroke-width:0.0634999;stroke-linejoin:round;-inkscape-stroke:hairline"
        id="rect70257"
-       width="153.76181"
+       width="87.277557"
        height="148.49747"
        x="4.69977"
        y="288.3486"
@@ -283,14 +295,14 @@
     <text
        xml:space="preserve"
        style="font-size:9.74102px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#ffffff;stroke-width:0.264583"
-       x="196.55527"
-       y="118.64755"
+       x="191.2636"
+       y="18.105898"
        id="text89302"><tspan
          sodipodi:role="line"
          id="tspan89300"
          style="fill:#ffffff;stroke-width:0.264583"
-         x="196.55527"
-         y="118.64755">Schedule</tspan></text>
+         x="191.2636"
+         y="18.105898">🗓Schedule</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:5.93699px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#babdb6;stroke-width:0.264582"
@@ -309,27 +321,27 @@
        style="font-size:32px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect98710);fill:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"><tspan
          x="37.935547"
          y="968.16406"
-         id="tspan24712">{{c.inspiration}}</tspan></text>
+         id="tspan118170">{{c.inspiration}}</tspan></text>
     <rect
        style="vector-effect:non-scaling-stroke;fill:#555753;stroke:none;stroke-width:0.0634999;stroke-linejoin:round;-inkscape-stroke:hairline"
        id="rect115742"
-       width="104.19202"
+       width="171.5273"
        height="199.98033"
-       x="165.09325"
+       x="97.757973"
        y="237.03305"
        ry="3.6378074"
-       rx="3.6378074" />
+       rx="3.6378071" />
     <text
        xml:space="preserve"
        style="font-size:9.74102px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#ffffff;stroke-width:0.264583"
-       x="206.44133"
-       y="347.33899"
+       x="164.33705"
+       y="247.38454"
        id="text115746"><tspan
          sodipodi:role="line"
          id="tspan115744"
          style="fill:#ffffff;stroke-width:0.264583"
-         x="206.44133"
-         y="347.33899">Trello</tspan></text>
+         x="164.33705"
+         y="247.38454">🗃 Trello</tspan></text>
     <rect
        style="vector-effect:non-scaling-stroke;fill:#555753;stroke:none;stroke-width:0.0635;stroke-linejoin:round;-inkscape-stroke:hairline"
        id="rect131472"
@@ -410,46 +422,6 @@
          style="text-align:end;text-anchor:end;fill:#babdb6;stroke-width:0.264582"
          x="75.941498"
          y="278.50864">Minecraft</tspan></text>
-    <rect
-       style="vector-effect:non-scaling-stroke;fill:#555753;stroke:none;stroke-width:0.0635;stroke-linejoin:round;-inkscape-stroke:hairline"
-       id="rect131480"
-       width="74.522949"
-       height="68.293434"
-       x="84.074768"
-       y="214.00133"
-       ry="3.6378074"
-       rx="3.6378074" />
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#888a85;stroke-width:1.365;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect137871"
-       width="67.02121"
-       height="35.594181"
-       x="87.637886"
-       y="235.29092"
-       rx="3.637809"
-       ry="3.637809" />
-    <text
-       xml:space="preserve"
-       style="font-size:5.93699px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#babdb6;stroke-width:0.264582"
-       x="153.19978"
-       y="278.50864"
-       id="text131484"><tspan
-         sodipodi:role="line"
-         id="tspan131482"
-         style="text-align:end;text-anchor:end;fill:#babdb6;stroke-width:0.264582"
-         x="153.19978"
-         y="278.50864">Power</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:5.93699px;line-height:1.25;font-family:sans-serif;text-align:start;word-spacing:0px;text-anchor:start;fill:#babdb6;stroke-width:0.264582"
-       x="87.72052"
-       y="278.37262"
-       id="text131492"><tspan
-         sodipodi:role="line"
-         id="tspan131490"
-         style="text-align:start;text-anchor:start;fill:#babdb6;stroke-width:0.264582"
-         x="87.72052"
-         y="278.37262">10:35pm</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:5.93699px;line-height:1.25;font-family:sans-serif;text-align:start;word-spacing:0px;text-anchor:start;fill:#ffffff;stroke-width:0.264582"
@@ -496,17 +468,6 @@
          y="248.16953">UsernameOne</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10.2962px;line-height:1.25;font-family:sans-serif;text-align:start;word-spacing:0px;text-anchor:start;fill:#ffffff;stroke-width:0.264581"
-       x="105.54477"
-       y="227.98482"
-       id="text134152"><tspan
-         sodipodi:role="line"
-         id="tspan134150"
-         style="text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.264581"
-         x="105.54477"
-         y="227.98482">2.45KW/h</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-size:5.93699px;line-height:1.25;font-family:sans-serif;text-align:start;word-spacing:0px;text-anchor:start;fill:#babdb6;stroke-width:0.264582"
        x="91.311203"
        y="258.75287"
@@ -516,16 +477,6 @@
          style="text-align:start;text-anchor:start;fill:#babdb6;stroke-width:0.264582"
          x="91.311203"
          y="258.75287" /></text>
-    <circle
-       style="fill:#a40000;fill-opacity:1;stroke:#888a85;stroke-width:1.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path137334"
-       cx="96.276611"
-       cy="224.3663"
-       r="5.6178951" />
-    <path
-       style="fill:#888a85;stroke:#ffffff;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 89.88288,267.34428 8.90249,-2.85375 7.48144,-5.99439 5.33371,-7.84792 10.43086,-4.11124 7.54149,5.12557 5.1246,5.77214 7.09371,-6.18789 4.4222,10.70383 5.81787,5.58631"
-       id="path137597" />
     <text
        xml:space="preserve"
        style="font-size:33.476px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
@@ -536,7 +487,7 @@
          id="tspan138273"
          style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
          x="78.742592"
-         y="32.751541">{{c.time}}</tspan></text>
+         y="32.751541">{{c.the_time}}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20.5264px;line-height:1.25;font-family:sans-serif;text-align:start;word-spacing:0px;text-anchor:start;fill:#ffffff;stroke-width:0.264582"
@@ -559,5 +510,18 @@
          style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264582"
          x="48.040916"
          y="269.35516">Users</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text6858"
+       style="line-height:1.25;font-family:sans-serif;font-size:40px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6860)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-63.500003,0)"
+       id="text10470"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';word-spacing:0px;white-space:pre;shape-inside:url(#rect10472);fill:#ffffff"><tspan
+         x="634.29492"
+         y="965.25003"
+         id="tspan118172">{{c.trello}}</tspan></text>
   </g>
 </svg>
