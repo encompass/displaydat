@@ -19,7 +19,7 @@ Setup your virtual environment
 
     python -m venv env
 
-Connect your your virtual environment
+Connect to your virtual environment
 
 {
 
