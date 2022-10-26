@@ -1,0 +1,32 @@
+{
+  "name": "displaydat",
+  "version": "1.0.0",
+  "description": "An open source, simple, displayboard for your home.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o static/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/encompass/displaydat.git"
+  },
+  "keywords": [
+    "Display",
+    "Board",
+    "Dashboard",
+    "Info",
+    "Board",
+    "IOT",
+    "Home"
+  ],
+  "author": "Jason Brower",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/encompass/displaydat/issues"
+  },
+  "homepage": "https://github.com/encompass/displaydat#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3",
+    "normalize-scss": "^7.0.1"
+  }
+}

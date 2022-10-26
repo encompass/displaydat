@@ -39,7 +39,7 @@ def dashboard():
         inspiration=c_inspiration,
         trello=c_trello
     )
-    return render_template("digital_board_template.svg", c=context)
+    return render_template("base.html", c=context)
 
 
 if __name__ == "__main__":
