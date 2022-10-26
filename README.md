@@ -21,20 +21,29 @@ Setup your virtual environment
 
 Connect your your virtual environment
 
+{
+
+Linux:
+
     source env/bin/activate
+Windows:
+
+    source env/Scripts/activate
+}
 
 Install the required packages
 
-    pip install -r requirements.txt
+    pip install -r application/requirements.txt
 
 Copy the .env_template to your own. You may need to edit some of .env to get all the features working.
 
     cp .env_template .env
 
 Run the environment
+
     python dashboard.py
 
-Have fun.  
+Have fun.
 
 # Initial Plans
 * Create limiter on the API calls so that I can use free accounts without billings.
@@ -43,10 +52,10 @@ Have fun.
 * Display quotes from a public api
 * Display calender
 * Display Trello Cards
+* Display ClickUp elements
 
 # Frequently asked questions:
 ## Why don't you just use \<insert tool here\>?
 Because I want to learn how to do it myself.
 ## How can I help?
 Clone, improve and we will take a look.  Happy to have more people contribute.
-
