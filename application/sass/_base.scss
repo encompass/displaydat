@@ -1,103 +1,55 @@
-html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  box-sizing: border-box;
-  font-size: $font-size-root;
-}
-
-*,
-*::before,
-*::after,
-input[type="search"] {
-  box-sizing: inherit;
-}
-
 body {
-  font-size: $font-size-base;
-  font-family: $font-family-sans-serif;
-  line-height: $line-height-base;
+  background-color: black;
+  color: white;
 }
 
-body,
-html {
-  height: 100%;
-}
+div#displaydat {
+  main.container {
+    display: grid;
+    grid-template-columns: repeat(author-fill, minmax(80px, 1fr));
+    gap: 2px;
+    grid-auto-rows: minmax(1fr, 3fr);
+    grid-auto-flow: dense;
+    padding: 1rem;
 
-blockquote,
-dd,
-dl,
-figure,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-pre {
-  margin: 0;
-}
+    .block {
+      border-radius: 3px;
+      padding: 0.25rem;
 
-button {
-  background: transparent;
-  border: 0;
-  padding: 0;
-}
+      // Grids are used in placing the blocks.
+      // This video is super crazy helpful.
+      // https://gridbyexample.com/video/series-line-based-placement/
+      &.status_good {
+        background-color: grey;
+      }
 
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-}
+      &.status_attention {
+        background-color: orange;
+      }
 
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
+      &.status_warning {
+        background-color: red;
+      }
 
-iframe {
-  border: 0;
-}
+      &.span2 {
+        grid-column-end: span 2;
+      }
 
-ol,
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+      &.span3 {
+        grid-column-end: span 3;
+      }
 
-//
-// Remove `list-style` bullets of nav lists.
-//
+      &.tall2 {
+        grid-row-end: span 2;
+      }
 
-nav ul {
-	list-style: none;
-}
+      &.tall3 {
+        grid-row-end: span 2;
+      }
 
-//
-// Make images responsive.
-//
-
-img {
-  max-width: 100%;
-}
-
-[tabindex="-1"]:focus {
-  outline: none !important;
-}
-
-//
-// Remove delay from tapping on clickable elements.
-//
-
-a,
-area,
-button,
-input,
-label,
-select,
-textarea,
-[tabindex] {
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
+      &.tall4 {
+        grid-row-end: span 4;
+      }
+    }
+  }
 }

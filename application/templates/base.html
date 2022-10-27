@@ -1,23 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Displaydat - Main Dashboard</title>
-  <meta name="description" content="Displaydat - A way to display information.">
-  <meta name="author" content="DisplayDat and an amazing Community of Developers">
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <title>Displaydat - Main Dashboard</title>
+    <meta
+      name="description"
+      content="Displaydat - A way to display information."
+    />
+    <meta
+      name="author"
+      content="DisplayDat and an amazing Community of Developers"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
 
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-
-</head>
-
-<body>
-  <!-- your content here... -->
-  <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
-</body>
+  <body>
+    <!-- your content here... -->
+    <div id="displaydat">
+      <main class="container">
+        <div class="block" style="grid-column: 1 / span 1; grid-row: 2 / span 2">
+          <p>1</p>
+        </div>
+        <div class="block status_good">
+          <p>2</p>
+        </div>
+        <div class="block span2">
+          <p>3</p>
+        </div>
+        <div class="block span3 status_attention">
+          <p>4</p>
+        </div>
+        <div class="block span2 status_warning">
+          <p>5</p>
+        </div>
+        <div class="block tall3 status_attention">
+          <p>6</p>
+        </div>
+        <div class="block">
+          <p>7</p>
+        </div>
+        <div class="block span2 status_warning">
+          <p>8</p>
+        </div>
+        <div class="block">
+          <p>9</p>
+        </div>
+        <div class="block span3 tall2">
+          <p>10</p>
+        </div>
+        <div class="block span2 tall4">
+          <p>11</p>
+        </div>
+        <div class="block" style="grid-column: 1 / span 1; grid-row: 2 / span 2">
+          <p>12</p>
+        </div>
+        <div class="block">
+          <p>13</p>
+        </div>
+        <div class="block span2">
+          <p>14</p>
+        </div>
+        <div class="block span3">
+          <p>15</p>
+        </div>
+        <div class="block span2">
+          <p>16</p>
+        </div>
+        <div class="block tall3">
+          <p>17</p>
+        </div>
+        <div class="block">
+          <p>18</p>
+        </div>
+        <div class="block span2">
+          <p>19</p>
+        </div>
+        <div class="block">
+          <p>20</p>
+        </div>
+        <div class="block span3 tall2">
+          <p>21</p>
+        </div>
+        <div class="block span2 tall4">
+          <p>22</p>
+        </div>
+        <div class="block" style="grid-column: 1 / span 1; grid-row: 2 / span 2">
+          <p>23</p>
+        </div>
+        <div class="block">
+          <p>24</p>
+        </div>
+        <div class="block span2">
+          <p>25</p>
+        </div>
+        <div class="block span3">
+          <p>26</p>
+        </div>
+      </main>
+      <div id="display_selecter">
+        <h1>
+          A place to select the display that you want to show and some other
+          kinds of settings.
+        </h1>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+  </body>
 </html>
