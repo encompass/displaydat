@@ -18,6 +18,12 @@
       rel="stylesheet"
       href="{{ url_for('static', filename='css/style.css') }}"
     />
+    {% for widget_name in c.styles %}
+      <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/widgets/' + widget_name + '.css') }}"
+    />
+    {% endfor %}
   </head>
 
   <body>

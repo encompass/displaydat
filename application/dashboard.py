@@ -19,6 +19,7 @@ def dashboard():
     Gathers up all the methods we need for the dashboard and 
     templates it in to the svg file.
     """
+    styles = set()
     for widget in display_settings["widgets"]:
         widget_name = widget["name"]
         arguments = widget["arguments"]
@@ -26,8 +27,14 @@ def dashboard():
         widget_size = widget["size"]
         extractor = getattr(extractors, widget_name)
         widget["rendered"] = render_template(widget_template, c = extractor(**arguments, **widget_size))
-
-    return render_template("base.html", c=display_settings)
+        styles.add(widget_name)
+    print(styles)
+    context = dict(
+        styles = styles,
+        widgets = display_settings["widgets"],
+        display_style = display_settings["display_style"]
+        )
+    return render_template("base.html", c=context)
 
 @app.route("/tool/<tool_name>")
 def render_tool(tool_name):

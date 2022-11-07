@@ -13,5 +13,25 @@ display_settings = {
             "size": {"width": 2, "height": 2},
             "arguments": {"text_content": "Hey Youtubes!"}
         },
+        {
+            "name": "html",
+            "size": {"width": 2, "height": 2},
+            "arguments": {"text_content": "Hey Youtubes!"}
+        },
+        {
+            "name": "html",
+            "size": {"width": 2, "height": 2},
+            "arguments": {"text_content": "Hey Youtubes!"}
+        },
+        {
+            "name": "html",
+            "size": {"width": 2, "height": 2},
+            "arguments": {"text_content": "Hey Youtubes!"}
+        },
+        {
+            "name": "html",
+            "size": {"width": 2, "height": 2},
+            "arguments": {"text_content": "Hey Youtubes!"}
+        },
     ]
 }

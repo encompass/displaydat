@@ -130,3 +130,5 @@ dmypy.json
 
 # DisplayDat specific ignores...
 node_modules/
+personal_display_settings.py
+static/
