@@ -1,34 +1,30 @@
+// How to get sass setup.  node-sass no worky with new npm.
+// https://sprucecss.com/blog/the-simplest-sass-compile-setup
 body {
   background-color: black;
   color: white;
 }
 
 div#displaydat {
+
+  // Grids are used in placing the blocks.
+  // This video series is super crazy helpful.
+  // https://gridbyexample.com/video/series-line-based-placement/
   main.container {
     display: grid;
-    grid-template-columns: repeat(author-fill, minmax(80px, 1fr));
-    gap: 2px;
-    grid-auto-rows: minmax(1fr, 3fr);
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 0.25rem;
     grid-auto-flow: dense;
     padding: 1rem;
+    height: 100vh;
 
     .block {
-      border-radius: 3px;
-      padding: 0.25rem;
+      border-radius: 1rem;
+      padding: 1rem;
 
-      // Grids are used in placing the blocks.
-      // This video is super crazy helpful.
-      // https://gridbyexample.com/video/series-line-based-placement/
-      &.status_good {
-        background-color: grey;
-      }
-
-      &.status_attention {
-        background-color: orange;
-      }
-
-      &.status_warning {
-        background-color: red;
+      &.span1 {
+        grid-column-end: span 1;
       }
 
       &.span2 {
@@ -39,17 +35,107 @@ div#displaydat {
         grid-column-end: span 3;
       }
 
+      &.span4 {
+        grid-column-end: span 4;
+      }
+
+      &.span5 {
+        grid-column-end: span 5;
+      }
+
+      &.span6 {
+        grid-column-end: span 6;
+      }
+
+      &.span7 {
+        grid-column-end: span 7;
+      }
+
+      &.span8 {
+        grid-column-end: span 8;
+      }
+
+      &.span9 {
+        grid-column-end: span 9;
+      }
+
+      &.tall1 {
+        grid-row-end: span 1;
+      }
+
       &.tall2 {
         grid-row-end: span 2;
       }
 
       &.tall3 {
-        grid-row-end: span 2;
+        grid-row-end: span 3;
       }
 
       &.tall4 {
         grid-row-end: span 4;
       }
+
+      &.tall5 {
+        grid-row-end: span 5;
+      }
+
+      &.tall6 {
+        grid-row-end: span 6;
+      }
+
+      &.tall7 {
+        grid-row-end: span 7;
+      }
+
+      &.tall8 {
+        grid-row-end: span 8;
+      }
+
+      &.tall9 {
+        grid-row-end: span 9;
+      }
+
+      &.tall10 {
+        grid-row-end: span 10;
+      }
+
+      &.tall11 {
+        grid-row-end: span 11;
+      }
+
+      &.tall12 {
+        grid-row-end: span 12;
+      }
+
+      &.tall13 {
+        grid-row-end: span 13;
+      }
+
+      &.tall14 {
+        grid-row-end: span 14;
+      }
+
+      &.tall15 {
+        grid-row-end: span 15;
+      }
+
+      &.tall16 {
+        grid-row-end: span 16;
+      }
     }
   }
+}
+
+div#display_settings {
+  position: fixed;
+  top: 4rem;
+  right: 4rem;
+  bottom: 4rem;
+  left: 4rem;
+  background: #000000BB;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px black;
+  border: 2px solid black;
+  display: none;
 }

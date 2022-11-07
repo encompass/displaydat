@@ -4,7 +4,8 @@
   "description": "An open source, simple, displayboard for your home.",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w sass/ -o static/css/ --recursive"
+    "sass-dev": "sass --watch --update --style=expanded sass:static/css",
+    "sass-prod": "sass --no-source-map --style=compressed sass:static/css"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,9 @@
   },
   "homepage": "https://github.com/encompass/displaydat#readme",
   "dependencies": {
-    "node-sass": "^7.0.3",
     "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.56.0"
   }
 }
